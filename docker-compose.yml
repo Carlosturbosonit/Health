@@ -56,7 +56,7 @@ services:
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-postgres:5432/airflow
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
     volumes:
-      - ./dags:/opt/airflow/dags
+      - ./dags:/airflow/dags
       - ./data:/data
       - ./jars:/jars
     entrypoint: /bin/bash
@@ -90,7 +90,7 @@ services:
       - ./dags:/opt/airflow/dags
       - ./data:/data
       - ./jars:/jars
-      - ./logs:/opt/airflow/logs
+      - ./logs:/airflow/logs
     ports:
       - "8088:8080"
     command: webserver
@@ -110,10 +110,10 @@ services:
       DW_USER: ${DW_USER:-dw}
       DW_PASSWORD: ${DW_PASSWORD:-dw}
     volumes:
-      - ./dags:/opt/airflow/dags
+      - ./dags:/airflow/dags
       - ./data:/data
       - ./jars:/jars
-      - ./logs:/opt/airflow/logs
+      - ./logs:/airflow/logs
     command: scheduler
 
 volumes:

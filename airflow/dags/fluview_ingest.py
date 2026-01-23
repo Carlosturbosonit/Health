@@ -2,21 +2,36 @@ from __future__ import annotations
 
 import json
 from dataclasses import dataclass
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import requests
 
-DELPHI_BASE = "https://api.delphi.cmu.edu/epidata"
+from airflow import DAG
+from airflow.operators.python import PythonOperator
 
+# =============================================================================
+# CONSTANTS
+# =============================================================================
+
+DELPHI_BASE = "https://api.delphi.cmu.edu/epidata"
+RAW_BASE_PATH = Path("airflow\data\raw\fluview")
+
+# =============================================================================
+# DATA MODEL
+# =============================================================================
 
 @dataclass(frozen=True)
 class IngestConfig:
     regions: str
     weeks_back: int
     ingest_date: str   # YYYY-MM-DD
-    raw_root: Path     # /data/raw/fluview
+    raw_root: Path     # /opt/spark-data/raw/fluview
 
+
+# =============================================================================
+# EPIWEEK UTILITIES
+# =============================================================================
 
 def _week1_start_sunday(year: int) -> date:
     # Week 1 contains Jan 4; weeks start Sunday.
@@ -47,6 +62,10 @@ def mmwr_epiweek(d: date) -> int:
     return y * 100 + week
 
 
+# =============================================================================
+# IO HELPERS
+# =============================================================================
+
 def _get_json(endpoint: str, params: dict | None = None) -> dict:
     url = f"{DELPHI_BASE}/{endpoint}/"
     r = requests.get(url, params=params, timeout=60)
@@ -60,6 +79,10 @@ def _write_json(path: Path, payload: dict) -> None:
     tmp.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
     tmp.replace(path)
 
+
+# =============================================================================
+# INGEST LOGIC (PURE PYTHON)
+# =============================================================================
 
 def ingest_fluview(cfg: IngestConfig) -> dict:
     out_dir = cfg.raw_root / f"ingest_date={cfg.ingest_date}"
@@ -81,7 +104,7 @@ def ingest_fluview(cfg: IngestConfig) -> dict:
     params_common = {
         "regions": cfg.regions,
         "epiweeks": f"{start_ew}-{end_ew}",
-        "issues": str(latest_issue),  # only the latest issue for consistent snapshot
+        "issues": str(latest_issue),
     }
 
     # 3) Pull datasets
@@ -93,7 +116,7 @@ def ingest_fluview(cfg: IngestConfig) -> dict:
     _write_json(out_dir / "fluview_ili.json", ili)
     _write_json(out_dir / "fluview_clinical.json", clinical)
 
-    # Marker for sensor
+    # Marker for downstream sensors
     (out_dir / "_SUCCESS").write_text("", encoding="utf-8")
 
     return {
@@ -103,3 +126,46 @@ def ingest_fluview(cfg: IngestConfig) -> dict:
         "rows_clinical": len(clinical.get("epidata") or []),
         "out_dir": str(out_dir),
     }
+
+
+# =============================================================================
+# AIRFLOW TASK WRAPPER
+# =============================================================================
+
+def run_fluview_ingest(**context):
+    cfg = IngestConfig(
+        regions="nat",
+        weeks_back=12,
+        ingest_date=context["ds"],
+        raw_root=RAW_BASE_PATH,
+    )
+    result = ingest_fluview(cfg)
+    print(f"Ingest completed: {result}")
+    return result
+
+
+# =============================================================================
+# AIRFLOW DAG
+# =============================================================================
+
+default_args = {
+    "owner": "urbanmove",
+    "retries": 2,
+    "retry_delay": timedelta(minutes=5),
+}
+
+with DAG(
+    dag_id="fluview_ingest",
+    description="Ingest CDC FluView data from Delphi API",
+    start_date=datetime(2024, 1, 1),
+    schedule="@weekly",
+    catchup=False,
+    max_active_runs=1,
+    default_args=default_args,
+    tags=["cdc", "flu", "ingest", "api"],
+) as dag:
+
+    ingest_task = PythonOperator(
+        task_id="ingest_fluview",
+        python_callable=run_fluview_ingest,
+    )

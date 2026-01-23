@@ -9,7 +9,7 @@ from airflow.operators.python import PythonOperator
 from airflow.sensors.filesystem import FileSensor
 from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
 
-from lib.fluview_ingest import IngestConfig, ingest_fluview
+from airflow.dags.fluview_ingest import IngestConfig, ingest_fluview
 
 RAW_ROOT = "/data/raw/fluview"
 CLEAN_ROOT = "/data/clean/fluview"
@@ -91,3 +91,4 @@ with DAG(
     )
 
     t_extract >> t_wait >> t_clean >> t_join_load
+
