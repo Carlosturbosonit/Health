@@ -188,13 +188,9 @@ with DAG(
     )
 
     # 4) Business logic (Spark JAR) -> writes staging tables in DW
-    SPARK_MASTER = "spark://spark-master:7077"
-
     t4_spark = SparkSubmitOperator(
         task_id="business_logic_spark",
-        conn_id="spark_default",
-        master="spark://spark-master:7077",   # <- CLAVE
-        deploy_mode="client",
+        conn_id="spark_standalone",
         application=JAR_PATH,
         java_class="com.tuorg.fluview.Main",
         verbose=True,
@@ -207,8 +203,6 @@ with DAG(
             "--runId", "{{ run_id }}",
         ],
     )
-
-
 
 
     # 5) Load to GOLD (UPSERT filtered by run_id)

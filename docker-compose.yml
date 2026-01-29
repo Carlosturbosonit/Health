@@ -11,7 +11,6 @@ x-airflow-common: &airflow-common
 
     AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://$AIRFLOW_DB_USER:$AIRFLOW_DB_PASSWORD@airflow-db:5432/$AIRFLOW_DB_NAME
 
-    AIRFLOW_CONN_SPARK_DEFAULT: spark://spark-master:7077
     AIRFLOW_CONN_POSTGRES_DW: postgresql://$DW_USER:$DW_PASSWORD@postgres_dw:5432/$DW_DB
 
   volumes:
