@@ -1,0 +1,34 @@
+[2026-01-27T10:57:10.434+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-27T10:57:10.488+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fluview_ingest_structured.fetch_metadata scheduled__2026-01-18T00:00:00+00:00 [queued]>
+[2026-01-27T10:57:10.497+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fluview_ingest_structured.fetch_metadata scheduled__2026-01-18T00:00:00+00:00 [queued]>
+[2026-01-27T10:57:10.498+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-01-27T10:57:10.513+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): fetch_metadata> on 2026-01-18 00:00:00+00:00
+[2026-01-27T10:57:10.519+0000] {standard_task_runner.py:64} INFO - Started process 579 to run task
+[2026-01-27T10:57:10.522+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fluview_ingest_structured', 'fetch_metadata', 'scheduled__2026-01-18T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/fluview_lib.py', '--cfg-path', '/tmp/tmp0j1vfqpb']
+[2026-01-27T10:57:10.526+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask fetch_metadata
+[2026-01-27T10:57:10.610+0000] {task_command.py:426} INFO - Running <TaskInstance: fluview_ingest_structured.fetch_metadata scheduled__2026-01-18T00:00:00+00:00 [running]> on host c8782a803364
+[2026-01-27T10:57:10.884+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fluview_ingest_structured' AIRFLOW_CTX_TASK_ID='fetch_metadata' AIRFLOW_CTX_EXECUTION_DATE='2026-01-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-01-18T00:00:00+00:00'
+[2026-01-27T10:57:10.885+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-27T10:57:12.377+0000] {python.py:237} INFO - Done. Returned value was: IngestContext(latest_issue=202602, start_ew=202543, end_ew=202602, out_dir='/opt/airflow/data/raw/fluview/ingest_date=2026-01-18')
+[2026-01-27T10:57:12.380+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-27T10:57:12.427+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=fluview_ingest_structured, task_id=fetch_metadata, run_id=scheduled__2026-01-18T00:00:00+00:00, execution_date=20260118T000000, start_date=20260127T105710, end_date=20260127T105712
+[2026-01-27T10:57:12.507+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-01-27T10:57:12.545+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-01-27T10:57:12.568+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-01-27T11:20:20.342+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-27T11:20:20.388+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fluview_ingest_structured.fetch_metadata scheduled__2026-01-18T00:00:00+00:00 [queued]>
+[2026-01-27T11:20:20.396+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fluview_ingest_structured.fetch_metadata scheduled__2026-01-18T00:00:00+00:00 [queued]>
+[2026-01-27T11:20:20.397+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-01-27T11:20:20.420+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): fetch_metadata> on 2026-01-18 00:00:00+00:00
+[2026-01-27T11:20:20.426+0000] {standard_task_runner.py:64} INFO - Started process 379 to run task
+[2026-01-27T11:20:20.431+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fluview_ingest_structured', 'fetch_metadata', 'scheduled__2026-01-18T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/fluview_lib.py', '--cfg-path', '/tmp/tmphoyt7w5_']
+[2026-01-27T11:20:20.437+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask fetch_metadata
+[2026-01-27T11:20:20.519+0000] {task_command.py:426} INFO - Running <TaskInstance: fluview_ingest_structured.fetch_metadata scheduled__2026-01-18T00:00:00+00:00 [running]> on host b033199fcba4
+[2026-01-27T11:20:20.815+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fluview_ingest_structured' AIRFLOW_CTX_TASK_ID='fetch_metadata' AIRFLOW_CTX_EXECUTION_DATE='2026-01-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-01-18T00:00:00+00:00'
+[2026-01-27T11:20:20.816+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-27T11:20:21.633+0000] {python.py:237} INFO - Done. Returned value was: IngestContext(latest_issue=202602, start_ew=202543, end_ew=202602, out_dir='/opt/airflow/data/raw/fluview/ingest_date=2026-01-18')
+[2026-01-27T11:20:21.634+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-27T11:20:21.663+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=fluview_ingest_structured, task_id=fetch_metadata, run_id=scheduled__2026-01-18T00:00:00+00:00, execution_date=20260118T000000, start_date=20260127T112020, end_date=20260127T112021
+[2026-01-27T11:20:21.695+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-01-27T11:20:21.717+0000] {taskinstance.py:3503} INFO - 3 downstream tasks scheduled from follow-on schedule check
+[2026-01-27T11:20:21.723+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

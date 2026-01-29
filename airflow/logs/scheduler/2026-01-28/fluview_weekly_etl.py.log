@@ -1,0 +1,985 @@
+[2026-01-28T16:06:25.418+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:06:25.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:06:25.424+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:06:25.423+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:06:25.450+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:06:25.525+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:06:25.525+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:06:25.574+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:06:25.574+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:06:25.601+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.194 seconds
+[2026-01-28T16:06:55.952+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:06:55.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:06:55.957+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:06:55.956+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:06:55.986+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:06:56.357+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:06:56.357+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:06:56.375+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:06:56.375+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:06:56.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.458 seconds
+[2026-01-28T16:07:26.781+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:07:26.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:07:26.785+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:07:26.785+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:07:26.807+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:07:26.840+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:07:26.839+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:07:26.862+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:07:26.862+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:07:26.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.116 seconds
+[2026-01-28T16:07:57.244+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:07:57.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:07:57.247+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:07:57.246+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:07:57.270+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:07:57.305+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:07:57.305+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:07:57.329+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:07:57.328+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:07:57.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.119 seconds
+[2026-01-28T16:08:27.880+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:08:27.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:08:27.884+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:08:27.883+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:08:27.909+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:08:27.947+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:08:27.946+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:08:28.304+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:08:28.304+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:08:28.328+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.456 seconds
+[2026-01-28T16:08:58.572+0000] {processor.py:161} INFO - Started process (PID=240) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:08:58.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:08:58.575+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:08:58.575+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:08:58.600+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:08:58.817+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:08:58.817+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:08:58.837+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:08:58.837+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:08:58.857+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.292 seconds
+[2026-01-28T16:09:29.552+0000] {processor.py:161} INFO - Started process (PID=255) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:09:29.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:09:29.556+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:09:29.555+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:09:29.577+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:09:29.612+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:09:29.612+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:09:29.635+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:09:29.635+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:09:29.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.117 seconds
+[2026-01-28T16:10:00.068+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:10:00.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:10:00.072+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:10:00.071+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:10:00.096+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:10:00.143+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:10:00.142+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:10:00.174+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:10:00.173+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:10:00.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.138 seconds
+[2026-01-28T16:10:30.702+0000] {processor.py:161} INFO - Started process (PID=285) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:10:30.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:10:30.706+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:10:30.706+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:10:30.729+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:10:30.765+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:10:30.764+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:10:30.789+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:10:30.788+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:10:30.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.123 seconds
+[2026-01-28T16:10:45.059+0000] {processor.py:161} INFO - Started process (PID=300) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:10:45.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:10:45.064+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:10:45.063+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:10:45.098+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:10:45.213+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:10:45.213+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:10:45.233+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:10:45.233+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:10:45.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.216 seconds
+[2026-01-28T16:11:15.681+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:11:15.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:11:15.685+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:11:15.684+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:11:15.704+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:11:15.731+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:11:15.731+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:11:15.752+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:11:15.752+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:11:15.780+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.104 seconds
+[2026-01-28T16:11:46.110+0000] {processor.py:161} INFO - Started process (PID=330) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:11:46.111+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:11:46.114+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:11:46.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:11:46.136+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:11:46.176+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:11:46.176+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:11:46.198+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:11:46.198+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:11:46.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.124 seconds
+[2026-01-28T16:12:16.643+0000] {processor.py:161} INFO - Started process (PID=345) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:12:16.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:12:16.646+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:12:16.646+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:12:16.666+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:12:16.697+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:12:16.697+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:12:16.729+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:12:16.729+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:12:16.761+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.124 seconds
+[2026-01-28T16:12:47.114+0000] {processor.py:161} INFO - Started process (PID=360) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:12:47.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:12:47.118+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:12:47.118+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:12:47.154+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:12:47.182+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:12:47.182+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:12:47.205+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:12:47.204+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:12:47.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.135 seconds
+[2026-01-28T16:12:54.216+0000] {processor.py:161} INFO - Started process (PID=365) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:12:54.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:12:54.219+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:12:54.218+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:12:54.245+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:12:54.363+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:12:54.363+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:12:54.385+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:12:54.385+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:12:54.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.204 seconds
+[2026-01-28T16:13:24.885+0000] {processor.py:161} INFO - Started process (PID=380) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:13:24.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:13:24.888+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:13:24.888+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:13:24.911+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:13:24.949+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:13:24.948+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:13:24.972+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:13:24.972+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:13:25.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.123 seconds
+[2026-01-28T16:13:55.321+0000] {processor.py:161} INFO - Started process (PID=395) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:13:55.323+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:13:55.324+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:13:55.324+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:13:55.344+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:13:55.386+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:13:55.385+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:13:55.418+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:13:55.417+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:13:55.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.133 seconds
+[2026-01-28T16:14:25.826+0000] {processor.py:161} INFO - Started process (PID=412) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:14:25.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:14:25.829+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:14:25.828+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:14:25.850+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:14:25.884+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:14:25.883+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:14:25.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.109 seconds
+[2026-01-28T16:14:56.346+0000] {processor.py:161} INFO - Started process (PID=427) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:14:56.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:14:56.349+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:14:56.349+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:14:56.376+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:14:56.411+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:14:56.411+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:14:56.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.114 seconds
+[2026-01-28T16:15:26.899+0000] {processor.py:161} INFO - Started process (PID=442) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:15:26.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:15:26.902+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:15:26.901+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:15:26.926+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:15:26.954+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:15:26.954+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:15:27.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.108 seconds
+[2026-01-28T16:15:57.421+0000] {processor.py:161} INFO - Started process (PID=457) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:15:57.423+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:15:57.426+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:15:57.425+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:15:57.450+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:15:57.480+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:15:57.480+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:15:57.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.117 seconds
+[2026-01-28T16:16:27.954+0000] {processor.py:161} INFO - Started process (PID=472) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:16:27.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:16:27.958+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:16:27.957+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:16:27.977+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:16:28.007+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:16:28.006+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:16:28.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.102 seconds
+[2026-01-28T16:16:58.461+0000] {processor.py:161} INFO - Started process (PID=487) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:16:58.462+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:16:58.464+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:16:58.464+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:16:58.486+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:16:58.515+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:16:58.514+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:16:58.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.107 seconds
+[2026-01-28T16:17:29.035+0000] {processor.py:161} INFO - Started process (PID=502) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:17:29.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:17:29.039+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:17:29.039+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:17:29.069+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:17:29.101+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:17:29.100+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:17:29.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.115 seconds
+[2026-01-28T16:17:59.550+0000] {processor.py:161} INFO - Started process (PID=517) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:17:59.552+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:17:59.554+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:17:59.553+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:17:59.581+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:17:59.615+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:17:59.615+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:17:59.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.122 seconds
+[2026-01-28T16:18:30.047+0000] {processor.py:161} INFO - Started process (PID=532) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:18:30.048+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:18:30.050+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:18:30.050+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:18:30.069+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:18:30.099+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:18:30.099+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:18:30.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.100 seconds
+[2026-01-28T16:19:00.502+0000] {processor.py:161} INFO - Started process (PID=547) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:19:00.504+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:19:00.506+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:19:00.505+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:19:00.528+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:19:00.561+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:19:00.561+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:19:00.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.111 seconds
+[2026-01-28T16:19:31.085+0000] {processor.py:161} INFO - Started process (PID=562) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:19:31.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:19:31.088+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:19:31.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:19:31.105+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:19:31.139+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:19:31.139+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:19:31.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.106 seconds
+[2026-01-28T16:20:01.602+0000] {processor.py:161} INFO - Started process (PID=577) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:20:01.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:20:01.605+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:20:01.604+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:20:01.623+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:20:01.654+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:20:01.654+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:20:01.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.106 seconds
+[2026-01-28T16:20:32.161+0000] {processor.py:161} INFO - Started process (PID=592) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:20:32.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:20:32.165+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:20:32.165+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:20:32.198+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:20:32.235+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:20:32.235+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:20:32.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.124 seconds
+[2026-01-28T16:21:02.696+0000] {processor.py:161} INFO - Started process (PID=607) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:21:02.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:21:02.699+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:21:02.699+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:21:02.718+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:21:02.748+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:21:02.748+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:21:02.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.103 seconds
+[2026-01-28T16:21:33.322+0000] {processor.py:161} INFO - Started process (PID=622) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:21:33.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:21:33.327+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:21:33.327+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:21:33.356+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:21:33.389+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:21:33.389+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:21:33.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.126 seconds
+[2026-01-28T16:22:03.794+0000] {processor.py:161} INFO - Started process (PID=637) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:22:03.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:22:03.797+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:22:03.797+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:22:03.822+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:22:03.855+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:22:03.854+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:22:03.899+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.111 seconds
+[2026-01-28T16:22:34.235+0000] {processor.py:161} INFO - Started process (PID=652) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:22:34.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:22:34.238+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:22:34.238+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:22:34.257+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:22:34.287+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:22:34.287+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:22:34.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.106 seconds
+[2026-01-28T16:23:04.885+0000] {processor.py:161} INFO - Started process (PID=667) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:23:04.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:23:04.888+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:23:04.888+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:23:04.909+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:23:04.956+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:23:04.956+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:23:05.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.125 seconds
+[2026-01-28T16:23:35.385+0000] {processor.py:161} INFO - Started process (PID=682) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:23:35.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:23:35.388+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:23:35.388+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:23:35.408+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:23:35.441+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:23:35.441+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:23:35.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.113 seconds
+[2026-01-28T16:24:05.948+0000] {processor.py:161} INFO - Started process (PID=697) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:24:05.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:24:05.951+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:24:05.951+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:24:05.970+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:24:06.005+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:24:06.005+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:24:06.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.110 seconds
+[2026-01-28T16:24:36.477+0000] {processor.py:161} INFO - Started process (PID=712) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:24:36.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:24:36.481+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:24:36.480+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:24:36.506+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:24:36.567+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:24:36.566+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:24:36.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.146 seconds
+[2026-01-28T16:25:07.041+0000] {processor.py:161} INFO - Started process (PID=727) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:25:07.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:25:07.044+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:25:07.043+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:25:07.077+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:25:07.111+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:25:07.110+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:25:07.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.120 seconds
+[2026-01-28T16:25:37.591+0000] {processor.py:161} INFO - Started process (PID=742) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:25:37.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:25:37.595+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:25:37.594+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:25:37.633+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:25:37.664+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:25:37.664+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:25:37.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.127 seconds
+[2026-01-28T16:26:08.111+0000] {processor.py:161} INFO - Started process (PID=757) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:26:08.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:26:08.114+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:26:08.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:26:08.136+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:26:08.171+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:26:08.170+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:26:08.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.112 seconds
+[2026-01-28T16:26:38.667+0000] {processor.py:161} INFO - Started process (PID=772) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:26:38.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:26:38.673+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:26:38.672+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:26:38.694+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:26:38.748+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:26:38.748+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:26:38.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.149 seconds
+[2026-01-28T16:27:09.249+0000] {processor.py:161} INFO - Started process (PID=787) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:27:09.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:27:09.252+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:27:09.252+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:27:09.272+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:27:09.304+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:27:09.303+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:27:09.349+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.106 seconds
+[2026-01-28T16:27:39.786+0000] {processor.py:161} INFO - Started process (PID=802) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:27:39.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:27:39.790+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:27:39.789+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:27:39.817+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:27:39.846+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:27:39.846+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:27:39.887+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.107 seconds
+[2026-01-28T16:28:10.337+0000] {processor.py:161} INFO - Started process (PID=817) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:28:10.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:28:10.340+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:28:10.340+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:28:10.372+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:28:10.402+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:28:10.402+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:28:10.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.118 seconds
+[2026-01-28T16:28:40.906+0000] {processor.py:161} INFO - Started process (PID=832) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:28:40.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:28:40.909+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:28:40.909+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:28:40.932+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:28:40.961+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:28:40.961+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:28:41.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.101 seconds
+[2026-01-28T16:29:11.399+0000] {processor.py:161} INFO - Started process (PID=847) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:29:11.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:29:11.404+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:29:11.403+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:29:11.434+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:29:11.467+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:29:11.466+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:29:11.489+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:29:11.488+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:29:11.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.124 seconds
+[2026-01-28T16:29:41.865+0000] {processor.py:161} INFO - Started process (PID=862) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:29:41.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:29:41.868+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:29:41.868+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:29:41.891+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:29:41.919+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:29:41.919+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:29:41.940+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:29:41.940+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:29:41.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.108 seconds
+[2026-01-28T16:30:12.256+0000] {processor.py:161} INFO - Started process (PID=877) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:30:12.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:30:12.261+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:30:12.260+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:30:12.288+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:30:12.323+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:30:12.323+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:30:12.344+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:30:12.344+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:30:12.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.120 seconds
+[2026-01-28T16:30:42.717+0000] {processor.py:161} INFO - Started process (PID=892) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:30:42.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:30:42.721+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:30:42.720+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:30:42.742+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:30:42.774+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:30:42.773+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:30:42.798+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:30:42.797+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:30:42.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.115 seconds
+[2026-01-28T16:31:13.271+0000] {processor.py:161} INFO - Started process (PID=907) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:31:13.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:31:13.275+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:31:13.275+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:31:13.295+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:31:13.321+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:31:13.321+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:31:13.340+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:31:13.340+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:31:13.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.102 seconds
+[2026-01-28T16:31:43.750+0000] {processor.py:161} INFO - Started process (PID=922) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:31:43.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:31:43.757+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:31:43.756+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:31:43.793+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:31:43.833+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:31:43.833+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:31:43.856+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:31:43.856+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:31:43.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.145 seconds
+[2026-01-28T16:32:14.242+0000] {processor.py:161} INFO - Started process (PID=937) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:32:14.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:32:14.246+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:32:14.245+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:32:14.272+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:32:14.305+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:32:14.304+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:32:14.327+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:32:14.326+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:32:14.356+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.119 seconds
+[2026-01-28T16:32:44.660+0000] {processor.py:161} INFO - Started process (PID=952) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:32:44.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:32:44.664+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:32:44.663+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:32:44.696+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:32:44.730+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:32:44.730+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:32:44.755+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:32:44.755+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:32:44.782+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.128 seconds
+[2026-01-28T16:33:15.102+0000] {processor.py:161} INFO - Started process (PID=967) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:33:15.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:33:15.106+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:33:15.106+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:33:15.129+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:33:15.170+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:33:15.169+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:33:15.203+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:33:15.202+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:33:15.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.132 seconds
+[2026-01-28T16:33:45.593+0000] {processor.py:161} INFO - Started process (PID=982) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:33:45.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:33:45.597+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:33:45.597+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:33:45.633+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:33:45.664+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:33:45.664+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:33:45.686+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:33:45.686+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:33:45.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.126 seconds
+[2026-01-28T16:34:16.124+0000] {processor.py:161} INFO - Started process (PID=997) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:34:16.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:34:16.127+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:34:16.127+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:34:16.144+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:34:16.176+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:34:16.176+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:34:16.197+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:34:16.197+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:34:16.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.103 seconds
+[2026-01-28T16:34:46.611+0000] {processor.py:161} INFO - Started process (PID=1012) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:34:46.613+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:34:46.615+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:34:46.615+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:34:46.648+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:34:46.684+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:34:46.684+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:34:46.709+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:34:46.708+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:34:46.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.133 seconds
+[2026-01-28T16:35:17.146+0000] {processor.py:161} INFO - Started process (PID=1027) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:35:17.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:35:17.150+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:35:17.150+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:35:17.173+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:35:17.203+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:35:17.203+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:35:17.225+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:35:17.225+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:35:17.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.111 seconds
+[2026-01-28T16:35:47.672+0000] {processor.py:161} INFO - Started process (PID=1042) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:35:47.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:35:47.675+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:35:47.675+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:35:47.698+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:35:47.731+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:35:47.730+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:35:47.754+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:35:47.754+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:35:47.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.120 seconds
+[2026-01-28T16:36:18.223+0000] {processor.py:161} INFO - Started process (PID=1057) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:36:18.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:36:18.227+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:36:18.227+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:36:18.255+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:36:18.287+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:36:18.286+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:36:18.308+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:36:18.308+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:36:18.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.120 seconds
+[2026-01-28T16:36:48.801+0000] {processor.py:161} INFO - Started process (PID=1072) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:36:48.802+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:36:48.804+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:36:48.803+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:36:48.820+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:36:48.849+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:36:48.849+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:36:48.869+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:36:48.869+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:36:48.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.100 seconds
+[2026-01-28T16:37:19.242+0000] {processor.py:161} INFO - Started process (PID=1087) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:37:19.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:37:19.246+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:37:19.245+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:37:19.269+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:37:19.301+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:37:19.300+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:37:19.321+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:37:19.321+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:37:19.347+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.111 seconds
+[2026-01-28T16:37:49.618+0000] {processor.py:161} INFO - Started process (PID=1102) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:37:49.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:37:49.621+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:37:49.621+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:37:49.637+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:37:49.667+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:37:49.667+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:37:49.687+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:37:49.687+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:37:49.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.101 seconds
+[2026-01-28T16:38:20.423+0000] {processor.py:161} INFO - Started process (PID=1117) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:38:20.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:38:20.427+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:38:20.427+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:38:20.450+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:38:20.482+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:38:20.482+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:38:20.505+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:38:20.504+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:38:20.534+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.117 seconds
+[2026-01-28T16:38:50.934+0000] {processor.py:161} INFO - Started process (PID=1132) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:38:50.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:38:50.937+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:38:50.937+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:38:50.960+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:38:50.990+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:38:50.990+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:38:51.014+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:38:51.014+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:38:51.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.110 seconds
+[2026-01-28T16:39:21.729+0000] {processor.py:161} INFO - Started process (PID=1147) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:39:21.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:39:21.744+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:39:21.741+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:39:21.935+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:39:22.213+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:39:22.213+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:39:22.432+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:39:22.432+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:39:22.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.872 seconds
+[2026-01-28T16:39:52.734+0000] {processor.py:161} INFO - Started process (PID=1162) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:39:52.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:39:52.737+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:39:52.737+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:39:52.800+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:39:52.837+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:39:52.837+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:39:52.868+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:39:52.867+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:39:52.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.170 seconds
+[2026-01-28T16:40:23.232+0000] {processor.py:161} INFO - Started process (PID=1177) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:40:23.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:40:23.240+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:40:23.239+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:40:23.276+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:40:23.329+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:40:23.329+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:40:23.371+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:40:23.371+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:40:23.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.182 seconds
+[2026-01-28T16:40:53.931+0000] {processor.py:161} INFO - Started process (PID=1192) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:40:53.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:40:53.934+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:40:53.934+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:40:53.954+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:40:53.983+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:40:53.983+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:40:54.010+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:40:54.010+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:40:54.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.114 seconds
+[2026-01-28T16:41:24.412+0000] {processor.py:161} INFO - Started process (PID=1207) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:41:24.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:41:24.418+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:41:24.417+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:41:24.446+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:41:24.486+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:41:24.485+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:41:24.511+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:41:24.511+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:41:24.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.137 seconds
+[2026-01-28T16:41:54.968+0000] {processor.py:161} INFO - Started process (PID=1222) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:41:54.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:41:54.971+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:41:54.971+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:41:54.992+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:41:55.026+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:41:55.026+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:41:55.048+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:41:55.048+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:41:55.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.113 seconds
+[2026-01-28T16:42:25.445+0000] {processor.py:161} INFO - Started process (PID=1237) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:42:25.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:42:25.449+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:42:25.448+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:42:25.470+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:42:25.504+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:42:25.504+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:42:25.528+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:42:25.528+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:42:25.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.120 seconds
+[2026-01-28T16:42:55.879+0000] {processor.py:161} INFO - Started process (PID=1254) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:42:55.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:42:55.882+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:42:55.881+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:42:55.899+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:42:55.937+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:42:55.937+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:42:55.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.116 seconds
+[2026-01-28T16:43:26.511+0000] {processor.py:161} INFO - Started process (PID=1269) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:43:26.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:43:26.514+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:43:26.514+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:43:26.532+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:43:26.564+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:43:26.564+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:43:26.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.110 seconds
+[2026-01-28T16:43:57.034+0000] {processor.py:161} INFO - Started process (PID=1284) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:43:57.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:43:57.038+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:43:57.038+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:43:57.063+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:43:57.096+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:43:57.096+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:43:57.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.116 seconds
+[2026-01-28T16:44:27.574+0000] {processor.py:161} INFO - Started process (PID=1299) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:44:27.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:44:27.577+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:44:27.577+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:44:27.597+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:44:27.627+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:44:27.626+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:44:27.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.104 seconds
+[2026-01-28T16:44:58.146+0000] {processor.py:161} INFO - Started process (PID=1314) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:44:58.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:44:58.149+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:44:58.149+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:44:58.170+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:44:58.200+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:44:58.199+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:44:58.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.104 seconds
+[2026-01-28T16:45:28.597+0000] {processor.py:161} INFO - Started process (PID=1329) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:45:28.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:45:28.601+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:45:28.600+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:45:28.620+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:45:28.654+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:45:28.653+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:45:28.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.104 seconds
+[2026-01-28T16:45:59.100+0000] {processor.py:161} INFO - Started process (PID=1344) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:45:59.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:45:59.103+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:45:59.102+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:45:59.136+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:45:59.170+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:45:59.169+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:45:59.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.140 seconds
+[2026-01-28T16:46:29.668+0000] {processor.py:161} INFO - Started process (PID=1359) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:46:29.669+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:46:29.671+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:46:29.671+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:46:29.691+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:46:29.720+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:46:29.720+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:46:29.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.102 seconds
+[2026-01-28T16:47:00.244+0000] {processor.py:161} INFO - Started process (PID=1374) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:47:00.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:47:00.248+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:47:00.248+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:47:00.282+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:47:00.315+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:47:00.315+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:47:00.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.123 seconds
+[2026-01-28T16:47:30.797+0000] {processor.py:161} INFO - Started process (PID=1389) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:47:30.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:47:30.800+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:47:30.800+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:47:30.822+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:47:30.851+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:47:30.851+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:47:30.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.105 seconds
+[2026-01-28T16:50:52.752+0000] {processor.py:161} INFO - Started process (PID=1404) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:50:52.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:50:52.771+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:50:52.770+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:50:52.950+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:50:53.098+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:50:53.098+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:50:53.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.578 seconds
+[2026-01-28T16:51:24.266+0000] {processor.py:161} INFO - Started process (PID=1419) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:51:24.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:51:24.269+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:51:24.269+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:51:24.296+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:51:24.346+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:51:24.346+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:51:24.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.146 seconds
+[2026-01-28T16:51:54.719+0000] {processor.py:161} INFO - Started process (PID=1434) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:51:54.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:51:54.725+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:51:54.724+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:51:54.785+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:51:54.869+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:51:54.868+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:51:54.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.282 seconds
+[2026-01-28T16:52:25.799+0000] {processor.py:161} INFO - Started process (PID=1449) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:52:25.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:52:25.802+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:52:25.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:52:25.826+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:52:25.869+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:52:25.868+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:52:25.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.134 seconds
+[2026-01-28T16:52:56.277+0000] {processor.py:161} INFO - Started process (PID=1464) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:52:56.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:52:56.280+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:52:56.280+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:52:56.305+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:52:56.348+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:52:56.348+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:52:56.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.144 seconds
+[2026-01-28T16:53:26.738+0000] {processor.py:161} INFO - Started process (PID=1479) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:53:26.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:53:26.742+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:53:26.741+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:53:26.761+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:53:26.793+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:53:26.793+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:53:26.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.116 seconds
+[2026-01-28T16:53:57.244+0000] {processor.py:161} INFO - Started process (PID=1494) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:53:57.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:53:57.247+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:53:57.247+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:53:57.270+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:53:57.304+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:53:57.304+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:53:57.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.117 seconds
+[2026-01-28T16:54:27.780+0000] {processor.py:161} INFO - Started process (PID=1509) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:54:27.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:54:27.785+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:54:27.784+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:54:27.805+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:54:27.836+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:54:27.835+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:54:27.888+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.114 seconds
+[2026-01-28T16:54:58.293+0000] {processor.py:161} INFO - Started process (PID=1524) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:54:58.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:54:58.296+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:54:58.296+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:54:58.318+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:54:58.349+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:54:58.349+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:54:58.400+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.114 seconds
+[2026-01-28T16:55:28.859+0000] {processor.py:161} INFO - Started process (PID=1539) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:55:28.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:55:28.862+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:55:28.862+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:55:28.888+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:55:28.923+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:55:28.923+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:55:28.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.121 seconds
+[2026-01-28T16:55:59.423+0000] {processor.py:161} INFO - Started process (PID=1554) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:55:59.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:55:59.427+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:55:59.427+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:55:59.449+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:55:59.478+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:55:59.477+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:55:59.523+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.105 seconds
+[2026-01-28T16:56:30.007+0000] {processor.py:161} INFO - Started process (PID=1569) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:56:30.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:56:30.011+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:56:30.010+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:56:30.032+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:56:30.066+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:56:30.066+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:56:30.096+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:56:30.096+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:56:30.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.126 seconds
+[2026-01-28T16:57:00.464+0000] {processor.py:161} INFO - Started process (PID=1584) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:57:00.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:57:00.467+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:57:00.467+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:57:00.487+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:57:00.517+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:57:00.517+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:57:00.541+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:57:00.541+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:57:00.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.116 seconds
+[2026-01-28T16:57:30.921+0000] {processor.py:161} INFO - Started process (PID=1599) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:57:30.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:57:30.925+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:57:30.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:57:30.952+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:57:30.989+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:57:30.989+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:57:31.012+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:57:31.011+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:57:31.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.127 seconds
+[2026-01-28T16:58:01.438+0000] {processor.py:161} INFO - Started process (PID=1614) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:58:01.439+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:58:01.441+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:58:01.441+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:58:01.459+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:58:01.488+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:58:01.488+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:58:01.508+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:58:01.508+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:58:01.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.103 seconds
+[2026-01-28T16:58:31.973+0000] {processor.py:161} INFO - Started process (PID=1629) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:58:31.974+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:58:31.976+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:58:31.976+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:58:31.998+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:58:32.032+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:58:32.032+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:58:32.061+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:58:32.061+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:58:32.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.120 seconds
+[2026-01-28T16:59:02.406+0000] {processor.py:161} INFO - Started process (PID=1644) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:59:02.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:59:02.409+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:59:02.408+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:59:02.427+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:59:02.464+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:59:02.463+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:59:02.484+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:59:02.484+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:59:02.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.113 seconds
+[2026-01-28T16:59:32.925+0000] {processor.py:161} INFO - Started process (PID=1659) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:59:32.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T16:59:32.928+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:59:32.927+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:59:32.949+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T16:59:32.990+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:59:32.990+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T16:59:33.014+0000] {logging_mixin.py:188} INFO - [2026-01-28T16:59:33.014+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T16:59:33.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.125 seconds
+[2026-01-28T17:00:03.592+0000] {processor.py:161} INFO - Started process (PID=1674) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:00:03.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:00:03.597+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:00:03.596+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:00:03.622+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:00:03.665+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:00:03.665+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:00:03.697+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:00:03.697+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:00:03.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.147 seconds
+[2026-01-28T17:00:34.105+0000] {processor.py:161} INFO - Started process (PID=1689) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:00:34.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:00:34.109+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:00:34.108+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:00:34.130+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:00:34.162+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:00:34.161+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:00:34.183+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:00:34.183+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:00:34.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.112 seconds
+[2026-01-28T17:01:04.589+0000] {processor.py:161} INFO - Started process (PID=1704) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:01:04.590+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:01:04.592+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:01:04.592+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:01:04.611+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:01:04.643+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:01:04.643+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:01:04.666+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:01:04.666+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:01:04.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.111 seconds
+[2026-01-28T17:01:35.116+0000] {processor.py:161} INFO - Started process (PID=1719) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:01:35.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:01:35.119+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:01:35.119+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:01:35.138+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:01:35.169+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:01:35.169+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:01:35.197+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:01:35.197+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:01:35.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.117 seconds
+[2026-01-28T17:02:05.627+0000] {processor.py:161} INFO - Started process (PID=1734) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:02:05.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:02:05.632+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:02:05.631+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:02:05.667+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:02:05.713+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:02:05.712+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:02:05.739+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:02:05.739+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:02:05.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.151 seconds
+[2026-01-28T17:02:36.136+0000] {processor.py:161} INFO - Started process (PID=1749) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:02:36.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:02:36.139+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:02:36.139+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:02:36.161+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:02:36.195+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:02:36.194+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:02:36.217+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:02:36.217+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:02:36.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.116 seconds
+[2026-01-28T17:03:06.576+0000] {processor.py:161} INFO - Started process (PID=1766) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:03:06.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:03:06.579+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:03:06.579+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:03:06.601+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:03:06.637+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:03:06.637+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:03:06.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.119 seconds
+[2026-01-28T17:03:37.069+0000] {processor.py:161} INFO - Started process (PID=1781) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:03:37.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:03:37.072+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:03:37.072+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:03:37.091+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:03:37.127+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:03:37.127+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:03:37.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.116 seconds
+[2026-01-28T17:04:07.535+0000] {processor.py:161} INFO - Started process (PID=1796) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:04:07.537+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:04:07.539+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:04:07.538+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:04:07.567+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:04:07.607+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:04:07.607+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:04:07.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.134 seconds
+[2026-01-28T17:04:38.047+0000] {processor.py:161} INFO - Started process (PID=1816) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:04:38.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:04:38.051+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:04:38.050+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:04:38.071+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:04:38.103+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:04:38.102+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:04:38.126+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:04:38.126+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:04:38.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.115 seconds
+[2026-01-28T17:05:08.552+0000] {processor.py:161} INFO - Started process (PID=1893) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:05:08.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:05:08.563+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:05:08.562+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:05:08.611+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:05:08.660+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:05:08.660+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:05:08.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.180 seconds
+[2026-01-28T17:05:39.123+0000] {processor.py:161} INFO - Started process (PID=1908) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:05:39.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:05:39.126+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:05:39.126+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:05:39.149+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:05:39.184+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:05:39.184+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:05:39.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.118 seconds
+[2026-01-28T17:06:09.682+0000] {processor.py:161} INFO - Started process (PID=1923) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:06:09.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:06:09.687+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:06:09.687+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:06:09.721+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:06:09.772+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:06:09.772+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:06:09.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.163 seconds
+[2026-01-28T17:06:40.218+0000] {processor.py:161} INFO - Started process (PID=1938) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:06:40.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:06:40.222+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:06:40.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:06:40.241+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:06:40.275+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:06:40.275+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:06:40.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.112 seconds
+[2026-01-28T17:07:10.878+0000] {processor.py:161} INFO - Started process (PID=1953) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:07:10.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:07:10.883+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:07:10.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:07:10.923+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:07:10.973+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:07:10.973+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:07:11.024+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.156 seconds
+[2026-01-28T17:07:41.328+0000] {processor.py:161} INFO - Started process (PID=1968) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:07:41.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:07:41.332+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:07:41.331+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:07:41.364+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:07:41.397+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:07:41.397+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:07:41.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.133 seconds
+[2026-01-28T17:08:11.908+0000] {processor.py:161} INFO - Started process (PID=1983) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:08:11.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:08:11.912+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:08:11.912+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:08:11.935+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:08:11.975+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:08:11.975+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:08:12.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.147 seconds
+[2026-01-28T17:08:42.329+0000] {processor.py:161} INFO - Started process (PID=1998) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:08:42.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:08:42.333+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:08:42.333+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:08:42.359+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:08:42.396+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:08:42.396+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:08:42.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.128 seconds
+[2026-01-28T17:09:12.856+0000] {processor.py:161} INFO - Started process (PID=2013) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:09:12.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:09:12.860+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:09:12.859+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:09:12.885+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:09:12.927+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:09:12.927+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:09:12.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.131 seconds
+[2026-01-28T17:09:43.408+0000] {processor.py:161} INFO - Started process (PID=2028) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:09:43.410+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:09:43.412+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:09:43.412+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:09:43.434+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:09:43.474+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:09:43.474+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:09:43.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.128 seconds
+[2026-01-28T17:10:13.895+0000] {processor.py:161} INFO - Started process (PID=2103) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:10:13.897+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:10:13.899+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:10:13.898+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:10:13.928+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:10:13.967+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:10:13.967+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:10:13.993+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:10:13.992+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:10:14.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.130 seconds
+[2026-01-28T17:10:44.743+0000] {processor.py:161} INFO - Started process (PID=2118) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:10:44.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:10:44.761+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:10:44.760+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:10:44.804+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:10:44.847+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:10:44.847+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:10:44.874+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:10:44.874+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:10:44.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.167 seconds
+[2026-01-28T17:11:15.288+0000] {processor.py:161} INFO - Started process (PID=2133) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:11:15.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:11:15.291+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:11:15.291+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:11:15.310+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:11:15.344+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:11:15.343+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:11:15.367+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:11:15.366+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:11:15.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.110 seconds
+[2026-01-28T17:11:45.882+0000] {processor.py:161} INFO - Started process (PID=2148) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:11:45.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:11:45.885+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:11:45.885+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:11:45.909+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:11:45.944+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:11:45.944+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:11:45.968+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:11:45.968+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:11:45.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.121 seconds
+[2026-01-28T17:12:16.447+0000] {processor.py:161} INFO - Started process (PID=2163) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:12:16.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:12:16.451+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:12:16.450+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:12:16.469+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:12:16.500+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:12:16.500+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:12:16.524+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:12:16.524+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:12:16.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.110 seconds
+[2026-01-28T17:12:47.011+0000] {processor.py:161} INFO - Started process (PID=2178) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:12:47.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:12:47.014+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:12:47.014+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:12:47.039+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:12:47.073+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:12:47.073+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:12:47.098+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:12:47.097+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:12:47.125+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.120 seconds
+[2026-01-28T17:13:17.541+0000] {processor.py:161} INFO - Started process (PID=2193) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:13:17.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:13:17.543+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:13:17.543+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:13:17.565+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:13:17.594+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:13:17.594+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:13:17.617+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:13:17.617+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:13:17.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.109 seconds
+[2026-01-28T17:13:48.074+0000] {processor.py:161} INFO - Started process (PID=2208) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:13:48.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:13:48.080+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:13:48.079+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:13:48.128+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:13:48.177+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:13:48.177+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:13:48.210+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:13:48.210+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:13:48.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.186 seconds
+[2026-01-28T17:14:18.653+0000] {processor.py:161} INFO - Started process (PID=2223) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:14:18.654+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:14:18.656+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:14:18.656+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:14:18.674+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:14:18.704+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:14:18.703+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:14:18.729+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:14:18.729+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:14:18.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.109 seconds
+[2026-01-28T17:14:49.222+0000] {processor.py:161} INFO - Started process (PID=2238) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:14:49.223+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:14:49.226+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:14:49.226+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:14:49.262+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:14:49.307+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:14:49.307+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:14:49.333+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:14:49.333+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:14:49.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.146 seconds
+[2026-01-28T17:15:19.715+0000] {processor.py:161} INFO - Started process (PID=2253) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:15:19.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:15:19.720+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:15:19.719+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:15:19.740+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:15:19.776+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:15:19.776+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:15:19.806+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:15:19.805+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:15:19.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.126 seconds
+[2026-01-28T17:15:50.212+0000] {processor.py:161} INFO - Started process (PID=2268) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:15:50.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:15:50.216+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:15:50.216+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:15:50.250+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:15:50.294+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:15:50.294+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:15:50.318+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:15:50.318+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:15:50.347+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.142 seconds
+[2026-01-28T17:16:20.713+0000] {processor.py:161} INFO - Started process (PID=2283) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:16:20.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:16:20.718+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:16:20.717+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:16:20.756+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:16:20.795+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:16:20.795+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:16:20.820+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:16:20.819+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:16:20.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.146 seconds
+[2026-01-28T17:16:46.232+0000] {processor.py:161} INFO - Started process (PID=2298) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:16:46.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:16:46.236+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:16:46.235+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:16:46.275+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:16:46.310+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:16:46.310+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:16:46.335+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:16:46.335+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:16:46.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.153 seconds
+[2026-01-28T17:17:16.720+0000] {processor.py:161} INFO - Started process (PID=2313) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:17:16.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:17:16.725+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:17:16.724+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:17:16.748+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:17:16.781+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:17:16.781+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:17:16.805+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:17:16.805+0000] {dag.py:3947} INFO - Setting next_dagrun for fluview_weekly_etl to 2026-01-23 18:00:00+00:00, run_after=2026-01-30 18:00:00+00:00
+[2026-01-28T17:17:16.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.120 seconds
+[2026-01-28T17:17:47.223+0000] {processor.py:161} INFO - Started process (PID=2330) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:17:47.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:17:47.227+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:17:47.226+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:17:47.247+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:17:47.285+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:17:47.284+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:17:47.332+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.117 seconds
+[2026-01-28T17:18:17.748+0000] {processor.py:161} INFO - Started process (PID=2464) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:18:17.750+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:18:17.753+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:18:17.752+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:18:17.780+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:18:17.815+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:18:17.814+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:18:17.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.120 seconds
+[2026-01-28T17:18:48.220+0000] {processor.py:161} INFO - Started process (PID=2479) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:18:48.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:18:48.225+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:18:48.224+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:18:48.258+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:18:48.299+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:18:48.299+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:18:48.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.132 seconds
+[2026-01-28T17:19:18.738+0000] {processor.py:161} INFO - Started process (PID=2494) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:19:18.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:19:18.741+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:19:18.741+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:19:18.764+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:19:18.793+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:19:18.793+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:19:18.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.106 seconds
+[2026-01-28T17:19:49.236+0000] {processor.py:161} INFO - Started process (PID=2509) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:19:49.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:19:49.240+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:19:49.240+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:19:49.270+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:19:49.303+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:19:49.302+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:19:49.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.130 seconds
+[2026-01-28T17:20:19.782+0000] {processor.py:161} INFO - Started process (PID=2524) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:20:19.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:20:19.786+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:20:19.785+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:20:19.802+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:20:19.831+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:20:19.830+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:20:19.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.096 seconds
+[2026-01-28T17:20:50.319+0000] {processor.py:161} INFO - Started process (PID=2539) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:20:50.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:20:50.322+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:20:50.322+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:20:50.346+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:20:50.382+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:20:50.382+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:20:50.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.119 seconds
+[2026-01-28T17:21:20.866+0000] {processor.py:161} INFO - Started process (PID=2554) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:21:20.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:21:20.871+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:21:20.870+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:21:20.902+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:21:20.936+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:21:20.936+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:21:20.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.125 seconds
+[2026-01-28T17:21:51.386+0000] {processor.py:161} INFO - Started process (PID=2569) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:21:51.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:21:51.390+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:21:51.389+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:21:51.409+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:21:51.437+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:21:51.437+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:21:51.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.104 seconds
+[2026-01-28T17:22:22.048+0000] {processor.py:161} INFO - Started process (PID=2584) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:22:22.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:22:22.052+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:22:22.052+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:22:22.078+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:22:22.113+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:22:22.113+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:22:22.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.123 seconds
+[2026-01-28T17:22:52.587+0000] {processor.py:161} INFO - Started process (PID=2599) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:22:52.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:22:52.591+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:22:52.591+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:22:52.617+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:22:52.655+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:22:52.655+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:22:52.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.124 seconds
+[2026-01-28T17:23:23.124+0000] {processor.py:161} INFO - Started process (PID=2614) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:23:23.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:23:23.130+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:23:23.130+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:23:23.159+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:23:23.200+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:23:23.200+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:23:23.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.154 seconds
+[2026-01-28T17:23:53.612+0000] {processor.py:161} INFO - Started process (PID=2629) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:23:53.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:23:53.617+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:23:53.616+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:23:53.640+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:23:53.673+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:23:53.672+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:23:53.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.129 seconds
+[2026-01-28T17:24:24.160+0000] {processor.py:161} INFO - Started process (PID=2644) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:24:24.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:24:24.163+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:24:24.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:24:24.179+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:24:24.207+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:24:24.206+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:24:24.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.098 seconds
+[2026-01-28T17:24:54.525+0000] {processor.py:161} INFO - Started process (PID=2659) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:24:54.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:24:54.529+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:24:54.529+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:24:54.550+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:24:54.579+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:24:54.579+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:24:54.624+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.104 seconds
+[2026-01-28T17:25:25.007+0000] {processor.py:161} INFO - Started process (PID=2674) to work on /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:25:25.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fluview_weekly_etl.py for tasks to queue
+[2026-01-28T17:25:25.011+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:25:25.011+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:25:25.038+0000] {processor.py:840} INFO - DAG(s) 'fluview_weekly_etl' retrieved from /opt/airflow/dags/fluview_weekly_etl.py
+[2026-01-28T17:25:25.069+0000] {logging_mixin.py:188} INFO - [2026-01-28T17:25:25.069+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-28T17:25:25.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fluview_weekly_etl.py took 0.113 seconds

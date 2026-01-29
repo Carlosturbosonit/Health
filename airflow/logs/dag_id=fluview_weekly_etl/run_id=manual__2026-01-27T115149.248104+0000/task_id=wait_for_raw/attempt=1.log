@@ -1,0 +1,54 @@
+[2026-01-27T11:51:50.386+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-27T11:51:50.420+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fluview_weekly_etl.wait_for_raw manual__2026-01-27T11:51:49.248104+00:00 [queued]>
+[2026-01-27T11:51:50.428+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fluview_weekly_etl.wait_for_raw manual__2026-01-27T11:51:49.248104+00:00 [queued]>
+[2026-01-27T11:51:50.431+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-01-27T11:51:50.447+0000] {taskinstance.py:2330} INFO - Executing <Task(FileSensor): wait_for_raw> on 2026-01-27 11:51:49.248104+00:00
+[2026-01-27T11:51:50.453+0000] {standard_task_runner.py:64} INFO - Started process 180 to run task
+[2026-01-27T11:51:50.457+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fluview_weekly_etl', 'wait_for_raw', 'manual__2026-01-27T11:51:49.248104+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/fluview_weekly_etl.py', '--cfg-path', '/tmp/tmpwbpbmmqx']
+[2026-01-27T11:51:50.460+0000] {standard_task_runner.py:91} INFO - Job 35: Subtask wait_for_raw
+[2026-01-27T11:51:50.528+0000] {task_command.py:426} INFO - Running <TaskInstance: fluview_weekly_etl.wait_for_raw manual__2026-01-27T11:51:49.248104+00:00 [running]> on host b033199fcba4
+[2026-01-27T11:51:50.622+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fluview_weekly_etl' AIRFLOW_CTX_TASK_ID='wait_for_raw' AIRFLOW_CTX_EXECUTION_DATE='2026-01-27T11:51:49.248104+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-27T11:51:49.248104+00:00'
+[2026-01-27T11:51:50.623+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-27T11:51:50.640+0000] {baseoperator.py:400} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2026-01-27T11:51:50.807+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.11/site-packages/***/models/connection.py:369 RemovedInAirflow3Warning: Encountered non-JSON in `extra` field for connection 'fs_default'. Support for non-JSON `extra` will be removed in Airflow 3.0
+[2026-01-27T11:51:50.808+0000] {connection.py:482} ERROR - Failed parsing the json for conn_id fs_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/connection.py", line 479, in extra_dejson
+    obj = json.loads(self.extra)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-01-27T11:51:50.810+0000] {base.py:84} INFO - Using connection ID 'fs_default' for task execution.
+[2026-01-27T11:51:50.811+0000] {connection.py:482} ERROR - Failed parsing the json for conn_id fs_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/connection.py", line 479, in extra_dejson
+    obj = json.loads(self.extra)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-01-27T11:51:50.812+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/raw/fluview/ingest_date=2026-01-27/_SUCCESS
+[2026-01-27T11:51:50.822+0000] {filesystem.py:89} INFO - Found File /opt/***/data/raw/fluview/ingest_date=2026-01-27/_SUCCESS last modified: 20260127104331
+[2026-01-27T11:51:50.823+0000] {base.py:294} INFO - Success criteria met. Exiting.
+[2026-01-27T11:51:50.823+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/raw/fluview/ingest_date=2026-01-27/_SUCCESS
+[2026-01-27T11:51:50.827+0000] {filesystem.py:89} INFO - Found File /opt/***/data/raw/fluview/ingest_date=2026-01-27/_SUCCESS last modified: 20260127104331
+[2026-01-27T11:51:50.828+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-27T11:51:50.838+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=fluview_weekly_etl, task_id=wait_for_raw, run_id=manual__2026-01-27T11:51:49.248104+00:00, execution_date=20260127T115149, start_date=20260127T115150, end_date=20260127T115150
+[2026-01-27T11:51:50.873+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-01-27T11:51:50.899+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-01-27T11:51:50.905+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

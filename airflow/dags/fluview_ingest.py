@@ -15,7 +15,9 @@ from airflow.operators.python import PythonOperator
 # =============================================================================
 
 DELPHI_BASE = "https://api.delphi.cmu.edu/epidata"
-RAW_BASE_PATH = Path("opt/airflow/data/raw/fluview")
+RAW_BASE_PATH = Path("/opt/airflow/data/raw/fluview")
+
+
 
 # =============================================================================
 # DATA MODEL

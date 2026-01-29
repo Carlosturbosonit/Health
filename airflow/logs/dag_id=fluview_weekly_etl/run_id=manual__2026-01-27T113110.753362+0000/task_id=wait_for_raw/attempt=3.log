@@ -1,0 +1,57 @@
+[2026-01-27T11:41:13.206+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-27T11:41:13.249+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fluview_weekly_etl.wait_for_raw manual__2026-01-27T11:31:10.753362+00:00 [queued]>
+[2026-01-27T11:41:13.258+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fluview_weekly_etl.wait_for_raw manual__2026-01-27T11:31:10.753362+00:00 [queued]>
+[2026-01-27T11:41:13.259+0000] {taskinstance.py:2306} INFO - Starting attempt 3 of 3
+[2026-01-27T11:41:13.278+0000] {taskinstance.py:2330} INFO - Executing <Task(FileSensor): wait_for_raw> on 2026-01-27 11:31:10.753362+00:00
+[2026-01-27T11:41:13.287+0000] {standard_task_runner.py:64} INFO - Started process 1038 to run task
+[2026-01-27T11:41:13.293+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fluview_weekly_etl', 'wait_for_raw', 'manual__2026-01-27T11:31:10.753362+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/fluview_weekly_etl.py', '--cfg-path', '/tmp/tmpa0p22px_']
+[2026-01-27T11:41:13.297+0000] {standard_task_runner.py:91} INFO - Job 26: Subtask wait_for_raw
+[2026-01-27T11:41:13.369+0000] {task_command.py:426} INFO - Running <TaskInstance: fluview_weekly_etl.wait_for_raw manual__2026-01-27T11:31:10.753362+00:00 [running]> on host b033199fcba4
+[2026-01-27T11:41:13.715+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fluview_weekly_etl' AIRFLOW_CTX_TASK_ID='wait_for_raw' AIRFLOW_CTX_EXECUTION_DATE='2026-01-27T11:31:10.753362+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-27T11:31:10.753362+00:00'
+[2026-01-27T11:41:13.717+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-27T11:41:13.728+0000] {baseoperator.py:400} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2026-01-27T11:41:13.741+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-27T11:41:13.759+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/sensors/filesystem.py", line 99, in execute
+    super().execute(context=context)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/sensors/base.py", line 264, in execute
+    raise e
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/sensors/base.py", line 246, in execute
+    poke_return = self.poke(context)
+                  ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/sensors/filesystem.py", line 85, in poke
+    self.log.info("Poking for file %s", self.path)
+                                        ^^^^^^^^^
+  File "/usr/local/lib/python3.11/functools.py", line 1001, in __get__
+    val = self.func(instance)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/sensors/filesystem.py", line 79, in path
+    hook = FSHook(self.fs_conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/hooks/filesystem.py", line 64, in __init__
+    conn = self.get_connection(fs_conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/hooks/base.py", line 83, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/connection.py", line 519, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `fs_default` isn't defined
+[2026-01-27T11:41:13.765+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=fluview_weekly_etl, task_id=wait_for_raw, run_id=manual__2026-01-27T11:31:10.753362+00:00, execution_date=20260127T113110, start_date=20260127T114113, end_date=20260127T114113
+[2026-01-27T11:41:13.794+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 26 for task wait_for_raw (The conn_id `fs_default` isn't defined; 1038)
+[2026-01-27T11:41:13.835+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2026-01-27T11:41:13.873+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-01-27T11:41:13.880+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
