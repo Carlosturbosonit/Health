@@ -1,0 +1,12 @@
+
+__pycache__/
+*.pyc
+
+
+# generated data
+
+.env
+data/
+include/jars/*.jar
+**/target/
+airflow/logs/

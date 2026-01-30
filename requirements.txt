@@ -1,0 +1,4 @@
+requests==2.32.3
+apache-airflow-providers-apache-spark==4.9.0
+apache-airflow-providers-postgres==5.12.0
+psycopg2-binary==2.9.9
