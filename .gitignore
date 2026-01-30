@@ -4,5 +4,9 @@ __pycache__/
 
 
 # generated data
-data/
 
+.env
+data/
+include/jars/*.jar
+**/target/
+airflow/logs/
