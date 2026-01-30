@@ -1,2 +1,0 @@
-requests==2.32.3
-apache-airflow-providers-apache-spark>=4.0.0,<5.0.0
